@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+	<title>Bageri Company & Kosova Asfalt</title>
+	<link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="slider.css">
+
+</head>
+
+<body>
+<div class="main-container">
+	<header>
+
+    <a href="index.html"><img class="logo" src="img/logo.png">  </a>
+
+	</header>
+
+	<nav>
+    		<ul>
+    			<li><a href="index.html">Ballina</a></li>
+    			<li><a href="historiku.html">Historiku</a></li>
+    			<li><a href="projektet.html">Projektet</a></li>
+    			<li><a href="kontakti.html">Kontakti</a></li>
+    		</ul>
+	</nav>
+
+
+
+    <section class="img-ballina">
+      <h2><i>Ne ndërtojmë të ardhmen</i></h2>
+    </section>
+
+    <div class="container-sherbimet">
+      <h1 style="font-size: 50px;text-align: center;">Shërbimet</h1>
+    
+
+  <article>
+  <div class="container-kubzat">
+
+      <div class="titulli">
+        <h2>Prodhimi i Kubzave</h2>
+      </div>
+        <p>      Kompania jonë prodhon kubza dhe skajore më cilësore në treg.<br>
+         Gjatë rregullimit te rrugëve kompania jonë bënë rregullimin e trotuarve
+        me skajore dhe kubza duke ofruar punën më cilësore në treg.  </p>
+        <div class="video-player">
+                <video width="600" height="500" controls>
+                  <source src="img/img-kubzat/vid-1.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+        </div>
+  </div>
+
+
+
+    <div class="container-betonim">
+
+      <div class="titulli">
+        <h2>Shërbime për Betonim</h2>
+      </div>
+    <p> Për veq asfaltimit të rrugëve kompania jonë ofron furnizim me beton.
+      Duke përfshirë të gjitha llojet e ndërtimeve si ato të ulëta ose të larta,
+       duke përdorur makineri më të fundit për prodhimin e betonit.
+    </p>
+
+    </div>
+
+
+    <div class="slideshow-container">
+
+    <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <div class="img" style="background-image:url('img/img-betonim/img-1.jpg');"></div>
+
+    </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <div class="img" style="background-image:url('img/img-betonim/img-2.jpg');"></div>
+
+    </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <div class="img" style="background-image:url('img/img-betonim/img-3.jpg');"></div>
+    </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <div class="img" style="background-image:url('img/img-betonim/img-4.jpg');"></div>
+    </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <div class="img" style="background-image:url('img/img-betonim/img-5.jpg');"></div>
+    </div>
+
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+
+  </article>
+</div>
+  <script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+  showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+  showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  }
+  </script>
+  </div>
+  <footer>
+		<p>Të drejtat e rezervuara &copy; | Bageri Company & Kosova Asfalt<p>
+	</footer>
+
+
+</body>
+</html>
+
+
+<!----
+Ikonat per kontakt - https://www.iconfinder.com.
+
+photo Slideshow - https://www.w3schools.com/howto/howto_js_slideshow.asp
+
+google maps - https://www.google.com/maps/@42.3149949,21.1795948,20974m/data=!3m1!1e3
+
+Projekti Prishtine - https://www.facebook.com/permalink.php?
+story_fbid=2691898507493593&id=221001581249977&__xts__[0]=
+68.ARB6W4Cwtg2BqWmJPUGxqpnGhT8w5KUlhEkdUzMuQrCInZLySbCIA5r8
+w9pHaM72a1jQRxkH4bLx_QQp7Zaet-7gfMwbMBQkneAYdQ6yVxDULT2fQuwR
+8PH_QdBfgrgEYoI2Ejwv4d3s5R0YscDAM1CrBiTI3ZX3nuLSRAXg180GzT-W
+DYx1Yvf_gqGKBXoliMMqmK9E-70LWG5gCTmKCq-9v58GfmrvD5FrtrU1PpOY
+_jw7rBdvSdadugJ2n9cVjsVQOcHR8pNDk9wE_-8zp2EZuI9QWIeH_1t8n5DCr
+Hpmffu0L6YU3CNZnLzWsrPQT6FyQ5F_SZYYDjroSgNHgNwOcQ&__tn__=-R
+
+Projekti Cia Berto - https://www.facebook.com/permalink.php?story_fbid=
+2686202408063203&id=221001581249977&__xts__%5B0%5D=68.ARCfV
+kiKuWefA7vlRdFOndXC_2J8d8O3ABBuCG43jshJ1Ai1d-XutuPIxX47iNbnHW
+PbhsKJS6lB5xitDZG2lK0ucHMntp0LbJIlQUrnmQsyjfk8KOdck_51iVF0DTSZD
+_1db8SovYPKmZ7wpG93q0r8U3yPR8dknp-o4-m1SROkwlx21SzK1A2sMDpIpJZ
+bEp9gHjeh3cy7zNsXdVfxbzjS3aitG5A0676Jk7GoXJn9RW2FCi7nkO2Jcw0r3RhF
+NLR6z1Hj9lzHPqyzqao67AZNMw2LRJCdChd0abkKHgkOw7xYRV46qJSwd6QW
+BefFc-0qeIlgykGJg-Q9XGdRdPgTxw&__tn__=-R
+
+Projeti ne mutidove - https://www.facebook.com/permalink.php?story_fbid=267358
+2819325162&id=221001581249977&__xts__%5B0%5D=68.ARBfQKeFWnKIr-E3942
+koZYuusoPteVSGQeqIES8SHw9Vh2QOCgglocQMt7D3XX0DqbXUjo6MwpyvnckWo
+Bame1i6xcQcln5fEA5ejbDdz__iinvJDFDFx7wVU7Q90P-PA7uEhNm5V2CLImu-sDaxB
+RCOFKDvWz8tQ_iibyTl6PuEdsmBNsh6dBESIdwv53VyQ5B5v_eEsb0TfIXGfuLhy8HA
+t-2JO4AWz7-nfS2yPX05Uj8KKL2ce0WhVej_ZkBX94EJzYCGT-MqJipJ6DGrWpvqOaLqn
+lVTuTdoK5rcuF5pDmAvUUMwp2-L85bQZVeP1HC5GiP5gePuEs6MarY8plcDQ&__tn__=-R
+
+Projekti ne shterpce - https://www.facebook.com/BAGERI-COMPANY-KOSOVA-ASFALT-
+221001581249977/?__tn__=kC-R&eid=ARBDXSNe_x7vgXlXT2DDp-u730seIijAWy_6XFibu
+LxxBmB1lrDJzgSiuwbk1thgJ_GtTl-Qem6wBVPR&hc_ref=ARSNTxtx1q8bgrxdMQkxYNxSCT
+zobGTOMvG15oKDxTUmiFyEWAmVP_gRiHxj_nkYEkw&fref=nf&__xts__%5B0%5D=68.AR
+CQZIn1dgrS_lmmKL6j4IIobiXAdM7CVdUK_KtLRo-x8JdVyRCF1cVchveHBwwWK1yzm8Wpx
+MtsKVVhqCNXintwg5I7u_JBx_Ly71vIxDBdrfFN_CS2jLlXJv7A5erHxmgTT2xMkblD9rWcxU8E
+_CPUX_MK-K6FoYcW7pypoqQM3_LUIkD3RTvSRGes2hhABbd6i2mSSgxhy31PQHNTdU4Mc
+vhyOjesgWyUI0jf-ixY7qus6KpuUlCO8VZBr_19gtUjMKEas3SmuaRsjXEOOnlAWGDRyfaFKlDw
+lUgBGrj6LR-Baonr1SqMBd1kTsx8Oxjx8G4oOIiiPb0_lC6__p6heA
+
+Peojekti ne interex - https://www.facebook.com/permalink.php?story_fbid=2676179629065481&i
+d=221001581249977&__xts__%5B0%5D=68.ARDmg6SzbISFVIbq-IiEjh8u-TlUsUce7J6suDio-suS
+uWAOEEm9ElSfAZnOYCtxH3KpApXnTKjFiG1i3wrfgCFE82WWGLmDXJlDO9az9nqwCWxBp91Ms
+XG9Jv3gy5fa0r0xfsRbqCSGOQyP--6W_DIcyjpwEjM3RH6B3QidyewtZEmKGjmA9S9G8KEiyR0KW
+4vV-SOXPmQ9s1rOvafBbX75oG48utNAKNDnlNxUkRGVxpCDFlbw82nPatshn6nbtxzwiQ3-fdG-tJP
+ryHFC3N-ALaX3VJcO6JDNQJPXIf0TBMdIrSqxSPEGRWaIALEl-_5KXJnnXlPngZbMVS02Q7buww&_
+_tn__=-R
+
+Projekti ne shtime - https://www.facebook.com/permalink.php?story_fbid=2672439206106190&id=22
+1001581249977&__xts__%5B0%5D=68.ARB8tfBkr4BTTbUDK0EIlD_PV_axereSOCGM7qCIInAQkc3Y
+c0PSUQeJDrUd4U0n-2EXLf7Z8kNO2Qw9YbKOjqQRrbQR_uyDDTkXMnpuWj731N7JPQfaSX77-pBZQ
+W3tCW0_JeFog7JGEnIcKDSY-FN7sEjW-TVcc3Z3NUZaE0yIC68MeJLUVyFceIire1e6fUaiXx4shRt6ZxamR
+5Iqj-TlRW8iGoDTidUcLHblYR1T3n-rYg6EllK2XC4ixXiCL-JBf0pGg58aV6riyTssLlemV9E9M-1t738wrN8I62
+lyepE7aqe8SR5A-xK9cetimx4tljj39SqO0qUo-7_NSz1JdA&__tn__=-R
+
+Projekti ne Ferizaj - https://www.facebook.com/permalink.php?story_fbid=2660732300610214&id=221001
+581249977&__xts__%5B0%5D=68.ARBPAFEM7I8F3791qyzSH-rda0lpB9bStRy1S7_59pkbQAFjRav284oKN
+6NC2NmywzynI3rsY_R2uFbJiLhg5jhcdY1DXjgmoI9VgvBYKJXI8vV623tmL1hhcfHNAY7v0HlC1z5BPd7e6T-lP
+EvR5xO_25TpJr_OV_fnEj9trlMSYGjLtV8ZxrN9b7mMnY_SJsp7zYt0FsjU_Ri0w73_rXbIHwbpiUd8w6hlpaLZ_T
+tnwid8BPJO8jnccn6ykkUIb3332u4gftFquJHaRggKZDd63d_R-1DhNXKrUVr5fVELpK31hw6KD63jY4aKqlmaA
+GOnyI6PNtO9f4-xgytjHgaaXw&__tn__=-R
+
+Projekti ne Mitrovicë - https://www.facebook.com/permalink.php?story_fbid=2655939081089536&id=22100158
+1249977&__xts__%5B0%5D=68.ARATKPU2hFoe8FoXUcYKYLiE1ugbTPRzo2N5-8ucwcAY_CC7ponZjn2vml82
+0cyugI8MRuHieFv7J-6Gvf21lVqlqHm9z_TkxvcdpPE9iVoZ5tRdG4XIgn9G6uHEx67NmEzPxM2r5UQjsCuGSRjGC
+J7lmXSxjjDZvhY6UMDR6_r96di7cIgRamP2R6H8COcJqVvXNKqtqX46kzzfwAufAdsNbYW1KoRQhaJt5yaJzZyUh
+qC6WYcBQ9JQsllKnQRuagE40FiOnMfmHWWOiwXkhjBUfrQoWaTBXAm6TgKOQPAS2EK0-i8bnHb0yTkBlEs
+ySU9hj-HF9O6iYvYSI4i__ddwAw&__tn__=-R
+--->

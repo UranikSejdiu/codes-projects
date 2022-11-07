@@ -1,0 +1,275 @@
+*{
+  text-decoration: none;
+  font-family: 'Catamaran';
+}
+
+html,body{
+  height: 100%;
+  margin:0;
+  padding:0;
+}
+
+
+
+.main-container{
+  position: relative;
+  min-height: 100%;
+	width:100%;
+  font-family:'Catamaran';
+}
+
+
+header{
+  width: 300px;
+	height:150px;
+  margin:0 auto;
+}
+
+.logo{
+    width: 300px;
+    height: 150px;
+}
+
+
+nav{
+  width: 100%;
+  background-color: #555;
+}
+nav ul {
+  width: max-content;
+  height:45px;
+  background-color: #555;
+  margin:0 auto;
+  list-style: none;
+  overflow: hidden;
+}
+
+nav ul li {
+	display: block;
+  	float: left;
+}
+
+nav ul li a {
+  font-size: 18px;
+  display: inline-block;
+  color: white;
+  padding:0 15px;
+  line-height: 45px;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  transition:150ms;
+  border-top: 3px solid #42f4d1;
+}
+
+.img-ballina{
+  width: 100%;
+  height:calc(100vh - 195px);
+  background-image: url('img/ballina.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+
+.img-ballina h2{
+  display: table-cell;
+  vertical-align: middle;
+  padding: auto 0;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  color:white;
+  text-shadow: 3px 3px 3px black;
+}
+
+.container{
+  width:95%;
+  margin:1% auto;
+  padding:0;
+}
+.projekt-container{
+  height: 100vh;
+  width:95%;
+  margin:1% auto;
+  padding:0;
+}
+
+.projektet{
+	width:100%;
+	padding:0;
+	margin:1% 0;
+	float:left;
+  border:1px solid rgb(214,212,212);  
+  box-shadow: 0 5px 15px rgba(0,0,0, 0.18);
+  border-radius: 15px;
+
+}
+
+.projektet h2 a{
+  color:#111;
+  padding-left: 5%;
+}
+
+.projektet p{
+  float:left;
+  width:50%;
+  padding-left: 5%;
+  margin:0;
+}
+
+
+.projekt-buton{
+  border: 0;
+  background-color: #fff;
+  margin-bottom: 2%;
+  margin-right: 3%;
+  float:right;
+  color:#777;
+  font-weight: 750;
+  text-transform: uppercase;
+}
+
+.projekt-buton:hover{
+  color:#000;
+}
+
+.historiku{
+  width:90%;
+  margin:0 auto;
+}
+.historiku h2{
+  border-bottom: 2
+  font-size: 35px;
+}
+.historiku p{
+  text-align: justify;
+  width: 80%;
+  margin:0 auto;
+  padding: 1%;
+
+}
+
+.titulli{
+  color: black;
+  width: 90%;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin:2% auto;
+  border-bottom: 2px solid #333;
+  text-align: center;
+}
+
+
+.video-player{
+  width: 100%;
+  text-align: center;
+}
+.container-sherbimet{
+	margin: 0 auto;
+	width:90%;
+  border: 2px solid #333;
+}
+
+
+.container-betonim{
+	margin:5px;
+  	width:80%;
+  	margin:0 auto;
+  	text-align: center;
+}
+
+
+.container-kubzat{
+  width:80%;
+  margin:5% auto;
+  text-align: center;
+}
+
+
+footer{
+  height: 50px;
+	width:100%;
+	margin:0;
+	padding:0;
+	text-align:center;
+	color: #fff;
+	background-color:#333;
+	float:left;
+}
+
+.main-info{
+  margin: 4%;
+  float: left;
+  width:92%;
+}
+
+
+
+
+.contact-table{
+  overflow: hidden;
+  margin: 10px;
+  padding: 5px;
+  width: 30%;
+  border:1px solid rgb(214,212,212);
+  box-shadow: 0 5px 15px rgba(0,0,0, 0.18);
+  border-radius: 15px;
+}
+
+
+.info-1 table{
+  width: 100%;
+  border-spacing: 25px;
+}
+
+
+
+.table-img{
+  margin:1% 40%;
+  width:32px;
+  height:32px;
+}
+
+.info-1 p{
+  text-align: center;
+}
+
+.p-others{
+  font-size:20px;
+  text-align: center;
+}
+
+.emri{
+  width: 80%;
+  margin:8% auto;
+  text-align: center;
+  font-weight: bolder;
+  border-bottom: 2px solid #333;
+  text-transform: uppercase;
+}
+
+
+.svg{
+  margin:0 auto;
+  display:block;
+  text-align:center;
+  border:1px solid rgb(214,212,212);
+  box-shadow: 0 5px 15px rgba(0,0,0, 0.18);
+  border-radius: 15px;
+}
+
+.svg text{
+  font-weight: 750;
+}
+
+.svg:hover{
+  transition: 150ms;
+  background-color: rgba(214,212,212,0.30);
+}
+
+.harta{
+  margin:2% 0;
+  text-align: center;
+}
