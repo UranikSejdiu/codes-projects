@@ -1,0 +1,8 @@
+Kozmetike 1
+Auto 2 6
+Librari 5 7
+Veshje 10
+Teknologji 4
+Shëndet 3 7
+Sport 3 6
+Vegla Pune 2
