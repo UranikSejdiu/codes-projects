@@ -46,15 +46,19 @@ with a current PHP installation have not been verified by this documentation.
 
 ## License and usage
 
-The author's original work is **free for noncommercial use, learning,
-modification, and free noncommercial sharing**. Do not sell it, package it into
-paid products, or use it for paid client work without prior written permission.
-Retain author credit and all required notices.
+The author's original work is available under the
+[PolyForm Noncommercial License 1.0.0](LICENSE.md). It permits use, modification,
+and sharing for permitted noncommercial purposes and expressly permits use by
+specified charitable, educational, research, public-service, and government
+organizations. Uses outside the license's permitted purposes require separate
+permission; commercial resale and monetized products or services are not
+generally covered by the noncommercial grant.
 
-See the [full license](LICENSE.md), [usage guide](USAGE.md), and
-[third-party notices](THIRD_PARTY_NOTICES.md). Included templates, libraries,
-fonts, icons, media, and other third-party work keep their existing licenses.
-The project's commercial restrictions do not replace those upstream licenses.
+See the [usage guide](USAGE.md), [copyright notice](NOTICE.md), and
+[third-party notices](THIRD_PARTY_NOTICES.md). The official license governs;
+these summaries add no restrictions. Third-party materials and previously valid
+license grants retain their existing permissions.
+
 
 ## Questions
 
